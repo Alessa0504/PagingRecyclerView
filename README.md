@@ -1,0 +1,3 @@
+# PagingRecyclerView
+1. 继承自SmartRefreshLayout的RefreshRecyclerView，支持header下拉刷新和footer加载更多
+2. 支持databinding, 可外部传入layout灵活布局

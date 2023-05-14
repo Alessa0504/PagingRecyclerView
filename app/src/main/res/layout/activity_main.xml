@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.example.pagingrecyclerview.RefreshRecyclerView
+        android:id="@+id/rv_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:my_empty_layout="@layout/layout_empty"
+        app:my_item_layout="@layout/item_product_0"
+        app:my_top_enable="true"
+        app:my_top_layout="@layout/layout_top" />
+</layout>
